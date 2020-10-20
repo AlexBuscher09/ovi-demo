@@ -1,0 +1,48 @@
+//
+// Fonts
+//
+
+$font-headline:               'Ovi', 'Lato', 'PT Sans', 'Open Sans', 'Roboto', 'Helvetica Neue', 'Helvetica Neue LT Std', 'Helvetica', 'Arial', 'Trebuchet MS', Arial, sans-serif;
+$font-body:                   'Ovi', 'Lato', 'PT Sans', 'Open Sans', 'Roboto', 'Helvetica Neue', 'Helvetica Neue LT Std', 'Helvetica', 'Arial', 'Trebuchet MS', Arial, sans-serif;
+$font-monospace:              'Courier New', 'Courier', 'Ubuntu Mono', Consolas, Inconsolata, Terminal, Monospaced, monospace !important;
+
+//
+// Colors
+//
+
+$color-black:                 #000000;
+//$color-semiblack:             #363642;
+$color-semiblack:             #111111;
+$color-white:                 #FFFFFF;
+$color-gray:                  #555555;
+$color-semiwhite:             #F8F8F8;
+
+$color-green:                 #289024;
+$color-green-contrast:        #2eb934;
+$color-blue:                  #1793E2;
+$color-pink:                  #E2357A;
+$color-purple:                #7F1F6B;
+$color-yellow:                #FDCD34;
+$color-lightpink:             #F9E3E8;
+
+$color-gray0:                 #F5F7F8;
+$color-gray1:                 #ECEFF1;
+$color-gray1-5:               #E7E7E7;
+$color-gray2:                 #CFD8DC;
+$color-gray3:                 $color-gray;
+$color-gray4:                 #607D8B;
+$color-gray5:                 #455A64;
+$color-red:                   #D35046;
+$color-orange:                #E76611;
+
+//
+// Color map
+//
+
+$color-highlight:             $color-green;
+$color-primary:               $color-green;
+$color-secondary:             $color-green;
+
+$color-approve:               $color-green;
+$color-decline:               $color-red;
+$color-warning:               $color-orange;

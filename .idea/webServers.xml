@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9b3da63d-a461-4dcf-954d-c5080e1c26ec" name="ovi.judins.net" url="http://ovi.judins.net">
+        <fileTransfer rootFolder="/public_html/judins.net/ovi" host="valezs.lv" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

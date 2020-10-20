@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Ovi';
+  src:  url('../fonts/Thin.eot');
+  src:  url('../fonts/Thin.eot?#iefix')  format('embedded-opentype'),
+  url('../fonts/Thin.woff2')       format('woff2'),
+  url('../fonts/Thin.woff')        format('woff'),
+  url('../fonts/Thin.ttf')         format('truetype'),
+  url('../fonts/Thin.otf')         format('opentype'),
+  url('../fonts/Thin.svg#Thin')    format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Ovi';
+  src:  url('../fonts/Light.eot');
+  src:  url('../fonts/Light.eot?#iefix')  format('embedded-opentype'),
+  url('../fonts/Light.woff2')       format('woff2'),
+  url('../fonts/Light.woff')        format('woff'),
+  url('../fonts/Light.ttf')         format('truetype'),
+  url('../fonts/Light.otf')         format('opentype'),
+  url('../fonts/Light.svg#Light')   format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Ovi';
+  src:  url('../fonts/Regular.eot');
+  src:  url('../fonts/Regular.eot?#iefix')  format('embedded-opentype'),
+  url('../fonts/Regular.woff2')       format('woff2'),
+  url('../fonts/Regular.woff')        format('woff'),
+  url('../fonts/Regular.ttf')         format('truetype'),
+  url('../fonts/Regular.otf')         format('opentype'),
+  url('../fonts/Regular.svg#Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Ovi';
+  src:  url('../fonts/Semibold.eot');
+  src:  url('../fonts/Semibold.eot?#iefix')    format('embedded-opentype'),
+  url('../fonts/Semibold.woff2')         format('woff2'),
+  url('../fonts/Semibold.woff')          format('woff'),
+  url('../fonts/Semibold.ttf')           format('truetype'),
+  url('../fonts/Semibold.otf')           format('opentype'),
+  url('../fonts/Semibold.svg#Semibold')  format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Ovi';
+  src:  url('../fonts/Bold.eot');
+  src:  url('../fonts/Bold.eot?#iefix')  format('embedded-opentype'),
+  url('../fonts/Bold.woff2')       format('woff2'),
+  url('../fonts/Bold.woff')        format('woff'),
+  url('../fonts/Bold.ttf')         format('truetype'),
+  url('../fonts/Bold.otf')         format('opentype'),
+  url('../fonts/Bold.svg#Bold')    format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-FB04;
+}
+
+@font-face {
+  font-family: 'Ovi';
+  src:  url('../fonts/Extrabld.eot');
+  src:  url('../fonts/Extrabld.eot?#iefix')    format('embedded-opentype'),
+  url('../fonts/Extrabld.woff2')         format('woff2'),
+  url('../fonts/Extrabld.woff')          format('woff'),
+  url('../fonts/Extrabld.ttf')           format('truetype'),
+  url('../fonts/Extrabld.otf')           format('opentype'),
+  url('../fonts/Extrabld.svg#Extrabld')  format('svg');
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Ovi';
+  src:  url('../fonts/Black.eot');
+  src:  url('../fonts/Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Black.woff2')      format('woff2'),
+  url('../fonts/Black.woff')       format('woff'),
+  url('../fonts/Black.ttf')        format('truetype'),
+  url('../fonts/Black.otf')        format('opentype'),
+  url('../fonts/Black.svg#Black')  format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+}
