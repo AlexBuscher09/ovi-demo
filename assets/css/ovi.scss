@@ -951,18 +951,21 @@ h1, h2, h3, h4, h5, h6 {
       .columns {
         margin-top: 48px;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         width: 100%;
         position: relative;
         .column {
-          width: 30%;
+          width: 49%;
+          margin-bottom: 20px;
           position: relative;
           img {
             max-width: 100%;
-            border-radius: 5px;
+            // border-radius: 5px;
           }
           &.column-02 {
-            margin-left: 5%;
-            margin-right: 5%;
+            // margin-left: 5%;
+            // margin-right: 5%;
           }
         }
       }
