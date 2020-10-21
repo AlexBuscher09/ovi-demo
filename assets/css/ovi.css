@@ -9824,14 +9824,9 @@ input, select {
   display: none !important;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   color: #111111;
-  font-weight: 700;
   font-family: "Ovi", "Lato", "PT Sans", "Open Sans", "Roboto", "Helvetica Neue", "Helvetica Neue LT Std", "Helvetica", "Arial", "Trebuchet MS", Arial, sans-serif;
-}
-
-h4, h5 {
-  font-weight: 700;
 }
 
 .slick-slider {
@@ -12226,7 +12221,7 @@ button:hover {
   padding: 6px 20px 6px 20px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 764px) {
   .button-containter-1 {
     padding-top: 0 !important;
     padding-bottom: 20px !important;
@@ -12279,7 +12274,13 @@ button:hover {
   margin-left: 2em;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 764px) {
+  .list-container-1-wrapper {
+    margin: 0 5px 0 5px !important;
+  }
+  .section-block-txt {
+    width: 95% !important;
+  }
   .large {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
@@ -12288,16 +12289,19 @@ button:hover {
     -webkit-column-count: 1 !important;
             column-count: 1 !important;
   }
+  .hero-contacts .container-top {
+    padding: 0 !important;
+  }
   .large li {
     max-width: 100% !important;
   }
-  .section-head-1 h2 {
+  .section-block-1 h2 {
     padding-bottom: 20px;
   }
-  .section-head-1 p, .section-head-1 h2 {
+  .section-block-1 p, .section-block-1 h2 {
     text-align: left !important;
   }
-  .section-head-1 {
+  .section-block-1 {
     padding: unset !important;
     height: unset !important;
     margin-bottom: 50px;
@@ -12312,13 +12316,13 @@ button:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .section-head-txt {
+  .section-block-txt {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
     margin-top: 50px;
   }
-  .section-head-img {
+  .section-block-img {
     background-position: 10% 20% !important;
     background-size: 100% !important;
     background: url("../img/ovi-background-4.jpg") !important;
@@ -12348,15 +12352,15 @@ button:hover {
   background-position-y: 75%;
 }
 
-.section-head-1 h2 {
+.section-block-1 h2 {
   padding-bottom: 20px;
 }
 
-.section-head-1 p, .section-head-1 h2 {
+.section-block-1 p, .section-block-1 h2 {
   text-align: left !important;
 }
 
-.section-head-1 {
+.section-block-1 {
   text-align: left !important;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -12376,7 +12380,11 @@ button:hover {
           justify-content: space-between;
 }
 
-.section-head-img {
+.section-block-txt {
+  width: 45%;
+}
+
+.section-block-img {
   width: 50%;
   height: 400px;
   background: url("../img/ovi-bg-3.jpg");
@@ -12401,9 +12409,9 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   vertical-align: top;
   width: 100%;
   -webkit-column-count: 2;
@@ -12411,7 +12419,11 @@ button:hover {
 }
 
 .hero-contacts .large li {
-  width: 30%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2%;
+  width: 33%;
+  height: 130px;
 }
 
 .hero-contacts .large li p {
