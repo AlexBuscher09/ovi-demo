@@ -10684,23 +10684,23 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   position: relative;
 }
 
 .page .block-hero.hero-offer .columns .column {
-  width: 30%;
+  width: 49%;
+  margin-bottom: 20px;
   position: relative;
 }
 
 .page .block-hero.hero-offer .columns .column img {
   max-width: 100%;
-  border-radius: 5px;
-}
-
-.page .block-hero.hero-offer .columns .column.column-02 {
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .page .block-hero.hero-texts {
